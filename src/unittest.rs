@@ -1,11 +1,3 @@
-# Gotham Header Route Matcher
-## Crate: [gotham_header_routematcher](https://crates.io/crates/gotham_header_routematcher)
-
-The `gotham_header_routematcher` crate provides a `RouteMatcher` implementation
-for [Gotham](https://gotham.rs) that allows you to match on arbitrary header
-values.
-
-```rust
 use gotham::router::builder::{build_simple_router, DefineSingleRoute, DrawRoutes};
 use gotham::router::Router;
 use gotham::state::State;
@@ -32,6 +24,7 @@ fn create_host_router() -> Router {
     })
 }
 
+#[test]
 fn check_routes() {
     let test_server = TestServer::new(create_host_router()).unwrap();
     let test_client = test_server.client();
@@ -60,4 +53,3 @@ fn check_routes() {
         .unwrap();
     assert_eq!(test_c.status(), StatusCode::NOT_FOUND);
 }
-```

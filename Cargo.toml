@@ -1,0 +1,15 @@
+[package]
+name = "gotham_header_routematcher"
+version = "0.1.0"
+authors = ["David Cuthbert <dacut@kanga.org>"]
+description = "Gotham route matcher for various HTTP headers (notably Host)"
+keywords = ["Gotham"]
+homepage = "https://github.com/dacut/gotham-header-routematcher"
+repository = "https://github.com/dacut/gotham-header-routematcher"
+edition = "2018"
+license = "Apache-2.0"
+readme = "README.md"
+
+[dependencies]
+hyper = "^0.12"
+gotham = "^0.4"
