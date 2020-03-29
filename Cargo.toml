@@ -11,5 +11,5 @@ license = "Apache-2.0"
 readme = "README.md"
 
 [dependencies]
-hyper = "^0.12"
 gotham = "^0.4"
+hyper = "^0.12"
