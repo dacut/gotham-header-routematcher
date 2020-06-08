@@ -1,7 +1,7 @@
 use gotham::router::non_match::RouteNonMatch;
 use gotham::router::route::matcher::RouteMatcher;
 use gotham::state::{FromState, State};
-use hyper::{HeaderMap, StatusCode};
+use gotham::hyper::{HeaderMap, StatusCode};
 
 #[cfg(test)]
 mod unittest;

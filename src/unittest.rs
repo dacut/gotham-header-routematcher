@@ -2,8 +2,8 @@ use gotham::router::builder::{build_simple_router, DefineSingleRoute, DrawRoutes
 use gotham::router::Router;
 use gotham::state::State;
 use gotham::test::TestServer;
-use hyper::StatusCode;
-use hyper::header::HeaderValue;
+use gotham::hyper::StatusCode;
+use gotham::hyper::header::HeaderValue;
 
 use crate::HeaderEqualsRouteMatcher;
 

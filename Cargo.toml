@@ -1,6 +1,6 @@
 [package]
 name = "gotham_header_routematcher"
-version = "0.1.0"
+version = "0.2.0"
 authors = ["David Cuthbert <dacut@kanga.org>"]
 description = "Gotham route matcher for various HTTP headers (notably Host)"
 keywords = ["Gotham"]
@@ -11,5 +11,4 @@ license = "Apache-2.0"
 readme = "README.md"
 
 [dependencies]
-gotham = "^0.4"
-hyper = "^0.12"
+gotham = "^0.5.0-rc.1"
